@@ -12,6 +12,6 @@ data class Cocktail(
     val instructions: String,
     val garnish: List<String>
 )
-
+//data
 @JsonClass(generateAdapter = true)
 data class CocktailList(val cocktails: List<Cocktail>)
