@@ -1,0 +1,311 @@
+{
+  "cocktails": [
+    {
+      "name": "Bramble",
+      "price_dkk": 75,
+      "glass": "Lowball",
+      "ice": "crushed",
+      "recipe": [
+        "4cl Gin",
+        "4cl Blackberry puree",
+        "2cl Triple Sec",
+        "2cl Blackberry syrup",
+        "2cl Lemon(Citron)"
+      ],
+      "instructions": "Stir; Top up with ice",
+      "garnish": [
+        "Freeze dried raspberries",
+        "Dried lime wheel"
+      ]
+    },
+    {
+      "name": "Mojito Passion",
+      "price_dkk": 75,
+      "glass": "Highball",
+      "ice": "crushed",
+      "recipe": [
+        "3 Lime wedges",
+        "4 Mint leaves",
+        "2 Dash cane sugar",
+        "4cl Light rum",
+        "4cl Passionfruit syrup"
+      ],
+      "instructions": "Muddle ingredients together; Fill glass with ice; Stir; Top up with more ice and soda water",
+      "garnish": [
+        "Mint top",
+        "Lime wedge"
+      ]
+    },
+    {
+      "name": "White Ukrainian",
+      "price_dkk": 75,
+      "glass": "Lowball",
+      "ice": "cubed",
+      "recipe": [
+        "4cl Kahlua",
+        "2cl Vodka",
+        "Milk"
+      ],
+      "instructions": "Pour the alcohol in the glass; Shake milk with ice; Fill up glass with ice; Strain foamed milk into the glass",
+      "garnish": [
+        "3 coffee beans"
+      ]
+    },
+    {
+      "name": "Dark and Stormy",
+      "price_dkk": 75,
+      "glass": "Lowball",
+      "ice": "cubed",
+      "recipe": [
+        "4cl Dark rum",
+        "2cl Lime",
+        "Ginger beer"
+      ],
+      "instructions": "Fill glass with ice; Pour in lime; Pour ginger beer 1.5cm from the top; Pour dark rum on top",
+      "garnish": [
+        "Dried lime wheel"
+      ]
+    },
+    {
+      "name": "Paloma",
+      "price_dkk": 75,
+      "glass": "Lowball",
+      "ice": "cubed",
+      "recipe": [
+        "4cl Tequila",
+        "2cl Lime",
+        "2cl Grapefruit syrup"
+      ],
+      "instructions": "Add all ingredients to the glass; Stir; Fill up with ice; Top up with lemon soda",
+      "garnish": [
+        "Grapefruit slice"
+      ]
+    },
+    {
+      "name": "Hello Limoncello",
+      "price_dkk": 75,
+      "glass": "Wine",
+      "ice": "cubed",
+      "recipe": [
+        "4cl Limoncello",
+        "4cl Triple Sec",
+        "4cl Lemon(Citron)"
+      ],
+      "instructions": "Add all ingredients to the glass; Stir; Fill up with ice; Top up with lemon tonic",
+      "garnish": [
+        "Dried lime wheel",
+        "Mint top"
+      ]
+    },
+    {
+      "name": "Tom Collins",
+      "price_dkk": 75,
+      "glass": "Lowball",
+      "ice": "cubed",
+      "recipe": [
+        "4cl Gin",
+        "4cl Triple Sec",
+        "4cl Lemon(Citron)"
+      ],
+      "instructions": "Add all ingredients to the glass; Stir; Fill up with ice; Top up with lemon soda",
+      "garnish": [
+        "Rosemary twig",
+        "Lemon twirl"
+      ]
+    },
+    {
+      "name": "Sour Passion",
+      "price_dkk": 75,
+      "glass": "Highball",
+      "ice": "cubed",
+      "recipe": [
+        "4cl Gin",
+        "2cl Triple Sec",
+        "2cl Passionfruit syrup",
+        "2cl Lemon(Citron)",
+        "2cl Lime"
+      ],
+      "instructions": "Fill up with ice; Add all ingredients to the glass; Stir; Top up with more ice and soda water",
+      "garnish": [
+        "Dried lime wheel",
+        "Mint top"
+      ]
+    },
+    {
+      "name": "June Sour",
+      "price_dkk": 85,
+      "glass": "Lowball",
+      "ice": "cubed",
+      "recipe": [
+        "2cl Limoncello",
+        "2cl Pisco",
+        "4cl Lemon(Citron)",
+        "3cl Triple Sec",
+        "2 dash bitters",
+        "Lemon meringue"
+      ],
+      "instructions": "Add all ingredients to the shaker; Shake with ice; Double strain into the glass filled with ice; Use the sifon to top up with meringue",
+      "garnish": [
+        "Lemon peel",
+        "Line of bitters"
+      ]
+    },
+    {
+      "name": "Okiku",
+      "price_dkk": 85,
+      "glass": "Martini",
+      "ice": null,
+      "recipe": [
+        "4cl Sake",
+        "2cl Cointreau",
+        "2cl Yuzu Syrup",
+        "2cl Triple Sec",
+        "2cl Egg whites"
+      ],
+      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass",
+      "garnish": [
+        "Line of bitters",
+        "Lemon peel"
+      ]
+    },
+    {
+      "name": "Rhubarb Sour",
+      "price_dkk": 85,
+      "glass": "Lowball",
+      "ice": "cubed",
+      "recipe": [
+        "2cl Burbon",
+        "2cl Xante",
+        "4cl Lemon(Citron)",
+        "4cl Rhubarb syrup",
+        "2cl Egg whites"
+      ],
+      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass",
+      "garnish": [
+        "Freeze dried raspberries",
+        "Dried Lime wheel"
+      ]
+    },
+    {
+      "name": "Espresso Martini",
+      "price_dkk": 85,
+      "glass": "Martini",
+      "ice": null,
+      "recipe": [
+        "4cl Gin",
+        "2cl Khalua",
+        "2cl Triple Sec",
+        "6cl Espresso"
+      ],
+      "instructions": "Add all ingredients to the shaker; Hard shake with ice; Double strain into the glass",
+      "garnish": [
+        "3 coffee beans"
+      ],
+      "with_espresso_mix": {
+        "recipe": [
+          "8cl espresso mix",
+          "4cl gin"
+        ],
+        "instructions": "Gently shake the squeeze bottle with the mix, then: Hard shake with ice; double strain into the glass"
+      }
+    },
+    {
+      "name": "Not a Cosmo",
+      "price_dkk": 85,
+      "glass": "Martini",
+      "ice": null,
+      "recipe": [
+        "4cl Light Rum",
+        "3cl Triple Sec",
+        "3cl Lime",
+        "2cl Grapefruit syrup",
+        "2cl Egg whites"
+      ],
+      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass",
+      "garnish": [
+        "Dried limewheel",
+        "A bit of dried raspberry"
+      ]
+    },
+    {
+      "name": "Lemon Moon",
+      "price_dkk": 85,
+      "glass": "Lowball",
+      "ice": "cubed",
+      "recipe": [
+        "2cl Limoncello",
+        "2cl Liquor 43",
+        "4cl Lemon(Citron)",
+        "2cl Triple Sec",
+        "Lemon meringue"
+      ],
+      "instructions": "Add all ingredients to the shaker; Shake with ice; Double strain into the glass filled with ice; Use the sifon to top up with meringue",
+      "garnish": [
+        "Lemon twirl"
+      ]
+    },
+    {
+      "name": "Mai Tai",
+      "price_dkk": 85,
+      "glass": "Lowball",
+      "ice": "crushed",
+      "recipe": [
+        "4cl Dark rum",
+        "2cl Amaretto",
+        "2cl Triple Sec",
+        "4cl Lime"
+      ],
+      "instructions": "Add all ingredients to the shaker; Shake with ice; Strain into the glass; Top up with crushed ice",
+      "garnish": [
+        "Dried lime wheel",
+        "Amarena cherry"
+      ]
+    },
+    {
+      "name": "Italian Sidecar",
+      "price_dkk": 85,
+      "glass": "Martini",
+      "ice": null,
+      "recipe": [
+        "2cl Limoncello",
+        "2cl Xante",
+        "3cl Triple Sec",
+        "4cl Lemon(Citron)",
+        "2cl Egg whites"
+      ],
+      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass",
+      "garnish": [
+        "Dots of bitters"
+      ]
+    },
+    {
+      "name": "Aperol Spritz",
+      "price_dkk": 85,
+      "glass": "Wine",
+      "ice": "cubed",
+      "recipe": [
+        "6cl Aperol",
+        "9cl Prosecco"
+      ],
+      "instructions": "Add Ice to the glass; Pour Aperol and then prosecco; Stir and top up with more ice; Top up with soda water",
+      "garnish": [
+        "Orange Slice"
+      ]
+    },
+    {
+      "name": "GT’s",
+      "price_dkk": 85,
+      "glass": "Wine",
+      "ice": "cubed",
+      "recipe": [
+        "4cl Gin",
+        "Tonic"
+      ],
+      "instructions": "Add ice to the glass; Pour gin; Stir to cool down the gin; Add more ice; Pour the specific tonic 1cm from the rim of the glass",
+      "garnish": [
+        "Juniper berries",
+        "Lemon(Citron)"
+      ]
+    }
+  ]
+}
