@@ -12,11 +12,12 @@
         "2cl Blackberry syrup",
         "2cl Lemon(Citron)"
       ],
-      "instructions": "Stir; Top up with ice",
       "garnish": [
         "Freeze dried raspberries",
         "Dried lime wheel"
-      ]
+      ],
+      "instructions": "Stir; Top up with ice"
+
     },
     {
       "name": "Mojito Passion",
@@ -30,11 +31,12 @@
         "4cl Light rum",
         "4cl Passionfruit syrup"
       ],
-      "instructions": "Muddle ingredients together; Fill glass with ice; Stir; Top up with more ice and soda water",
       "garnish": [
         "Mint top",
         "Lime wedge"
-      ]
+      ],
+      "instructions": "Muddle ingredients together; Fill glass with ice; Stir; Top up with more ice and soda water"
+
     },
     {
       "name": "White Ukrainian",
@@ -46,10 +48,11 @@
         "2cl Vodka",
         "Milk"
       ],
-      "instructions": "Pour the alcohol in the glass; Shake milk with ice; Fill up glass with ice; Strain foamed milk into the glass",
       "garnish": [
         "3 coffee beans"
-      ]
+      ],
+      "instructions": "Pour the alcohol in the glass; Shake milk with ice; Fill up glass with ice; Strain foamed milk into the glass"
+
     },
     {
       "name": "Dark and Stormy",
@@ -61,10 +64,11 @@
         "2cl Lime",
         "Ginger beer"
       ],
-      "instructions": "Fill glass with ice; Pour in lime; Pour ginger beer 1.5cm from the top; Pour dark rum on top",
       "garnish": [
         "Dried lime wheel"
-      ]
+      ],
+      "instructions": "Fill glass with ice; Pour in lime; Pour ginger beer 1.5cm from the top; Pour dark rum on top"
+
     },
     {
       "name": "Paloma",
@@ -76,10 +80,11 @@
         "2cl Lime",
         "2cl Grapefruit syrup"
       ],
-      "instructions": "Add all ingredients to the glass; Stir; Fill up with ice; Top up with lemon soda",
       "garnish": [
         "Grapefruit slice"
-      ]
+      ],
+      "instructions": "Add all ingredients to the glass; Stir; Fill up with ice; Top up with lemon soda"
+
     },
     {
       "name": "Hello Limoncello",
@@ -91,11 +96,12 @@
         "4cl Triple Sec",
         "4cl Lemon(Citron)"
       ],
-      "instructions": "Add all ingredients to the glass; Stir; Fill up with ice; Top up with lemon tonic",
       "garnish": [
         "Dried lime wheel",
         "Mint top"
-      ]
+      ],
+      "instructions": "Add all ingredients to the glass; Stir; Fill up with ice; Top up with lemon tonic"
+
     },
     {
       "name": "Tom Collins",
@@ -107,11 +113,12 @@
         "4cl Triple Sec",
         "4cl Lemon(Citron)"
       ],
-      "instructions": "Add all ingredients to the glass; Stir; Fill up with ice; Top up with lemon soda",
       "garnish": [
         "Rosemary twig",
         "Lemon twirl"
-      ]
+      ],
+      "instructions": "Add all ingredients to the glass; Stir; Fill up with ice; Top up with lemon soda"
+
     },
     {
       "name": "Sour Passion",
@@ -125,11 +132,12 @@
         "2cl Lemon(Citron)",
         "2cl Lime"
       ],
-      "instructions": "Fill up with ice; Add all ingredients to the glass; Stir; Top up with more ice and soda water",
       "garnish": [
         "Dried lime wheel",
         "Mint top"
-      ]
+      ],
+      "instructions": "Fill up with ice; Add all ingredients to the glass; Stir; Top up with more ice and soda water"
+
     },
     {
       "name": "June Sour",
@@ -144,11 +152,11 @@
         "2 dash bitters",
         "Lemon meringue"
       ],
-      "instructions": "Add all ingredients to the shaker; Shake with ice; Double strain into the glass filled with ice; Use the sifon to top up with meringue",
       "garnish": [
         "Lemon peel",
         "Line of bitters"
-      ]
+      ],
+      "instructions": "Add all ingredients to the shaker; Shake with ice; Double strain into the glass filled with ice; Use the sifon to top up with meringue"
     },
     {
       "name": "Okiku",
@@ -162,11 +170,12 @@
         "2cl Triple Sec",
         "2cl Egg whites"
       ],
-      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass",
       "garnish": [
         "Line of bitters",
         "Lemon peel"
-      ]
+      ],
+      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass"
+
     },
     {
       "name": "Rhubarb Sour",
@@ -180,11 +189,12 @@
         "4cl Rhubarb syrup",
         "2cl Egg whites"
       ],
-      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass",
       "garnish": [
         "Freeze dried raspberries",
         "Dried Lime wheel"
-      ]
+      ],
+      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass"
+
     },
     {
       "name": "Espresso Martini",
@@ -197,17 +207,11 @@
         "2cl Triple Sec",
         "6cl Espresso"
       ],
-      "instructions": "Add all ingredients to the shaker; Hard shake with ice; Double strain into the glass",
       "garnish": [
         "3 coffee beans"
       ],
-      "with_espresso_mix": {
-        "recipe": [
-          "8cl espresso mix",
-          "4cl gin"
-        ],
-        "instructions": "Gently shake the squeeze bottle with the mix, then: Hard shake with ice; double strain into the glass"
-      }
+      "instructions": "Add all ingredients to the shaker; Hard shake with ice; Double strain into the glass"
+
     },
     {
       "name": "Not a Cosmo",
@@ -221,11 +225,12 @@
         "2cl Grapefruit syrup",
         "2cl Egg whites"
       ],
-      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass",
       "garnish": [
         "Dried limewheel",
         "A bit of dried raspberry"
-      ]
+      ],
+      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass"
+
     },
     {
       "name": "Lemon Moon",
@@ -239,10 +244,11 @@
         "2cl Triple Sec",
         "Lemon meringue"
       ],
-      "instructions": "Add all ingredients to the shaker; Shake with ice; Double strain into the glass filled with ice; Use the sifon to top up with meringue",
       "garnish": [
         "Lemon twirl"
-      ]
+      ],
+      "instructions": "Add all ingredients to the shaker; Shake with ice; Double strain into the glass filled with ice; Use the sifon to top up with meringue"
+
     },
     {
       "name": "Mai Tai",
@@ -255,11 +261,12 @@
         "2cl Triple Sec",
         "4cl Lime"
       ],
-      "instructions": "Add all ingredients to the shaker; Shake with ice; Strain into the glass; Top up with crushed ice",
       "garnish": [
-        "Dried lime wheel",
-        "Amarena cherry"
-      ]
+      "Dried lime wheel",
+      "Amarena cherry"
+    ],
+      "instructions": "Add all ingredients to the shaker; Shake with ice; Strain into the glass; Top up with crushed ice"
+
     },
     {
       "name": "Italian Sidecar",
@@ -273,10 +280,11 @@
         "4cl Lemon(Citron)",
         "2cl Egg whites"
       ],
-      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass",
       "garnish": [
         "Dots of bitters"
-      ]
+      ],
+      "instructions": "Add all ingredients to the shaker; Double shake first with ice then without; Fine strain into the glass"
+
     },
     {
       "name": "Aperol Spritz",
@@ -287,10 +295,11 @@
         "6cl Aperol",
         "9cl Prosecco"
       ],
-      "instructions": "Add Ice to the glass; Pour Aperol and then prosecco; Stir and top up with more ice; Top up with soda water",
       "garnish": [
         "Orange Slice"
-      ]
+      ],
+      "instructions": "Add Ice to the glass; Pour Aperol and then prosecco; Stir and top up with more ice; Top up with soda water"
+
     },
     {
       "name": "GT’s",
@@ -301,11 +310,11 @@
         "4cl Gin",
         "Tonic"
       ],
-      "instructions": "Add ice to the glass; Pour gin; Stir to cool down the gin; Add more ice; Pour the specific tonic 1cm from the rim of the glass",
       "garnish": [
         "Juniper berries",
         "Lemon(Citron)"
-      ]
+      ],
+      "instructions": "Add ice to the glass; Pour gin; Stir to cool down the gin; Add more ice; Pour the specific tonic 1cm from the rim of the glass"
     }
   ]
 }

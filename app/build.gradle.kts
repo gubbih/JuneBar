@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("kotlin-parcelize")
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.8.22"
 }
 
 android {
@@ -50,7 +52,21 @@ android {
 }
 
 dependencies {
-
+    implementation (libs.ui)
+    implementation (libs.androidx.material)
+    implementation (libs.androidx.navigation.compose.v253)
+    implementation (libs.moshi)
+    implementation (libs.moshi.kotlin)
+    implementation (libs.androidx.activity.compose.v172)
+    implementation(libs.jackson.module.kotlin.v2150)
+    implementation(libs.jackson.databind)
+    implementation(libs.kotlinx.serialization.json)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.gson)
+    implementation(libs.androidx.navigation.compose.v2xx)
+    implementation (libs.jackson.module.kotlin)
+    implementation(libs.gson)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -59,6 +75,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.navigation.runtime.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
