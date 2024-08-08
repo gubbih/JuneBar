@@ -19,6 +19,7 @@ This app is for personal use only and is not affiliated with Junebar. It serves 
 
 ### 📝 To-Do:
 - [ ] Better UI styling
+- [ ] Make the APK
 
 ### 💡 Maybe Pile:
 - [ ] Integrate Firebase DB?

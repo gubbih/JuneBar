@@ -1,14 +1,16 @@
 package com.example.junebardrinks
 
+import JunebarTheme
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.material.Divider
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Text
+import androidx.compose.material3.Divider
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
@@ -27,17 +29,19 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            val navController = rememberNavController()
-            val cocktailList = loadCocktails()
-            //could be moved to a navHost
-            NavHost(navController = navController, startDestination = "cocktail_list") {
-                composable("cocktail_list") {
-                    CocktailListScreen(cocktails = cocktailList, navController = navController)
-                }
-                composable("cocktail_details/{name}") { backStackEntry ->
-                    val name = backStackEntry.arguments?.getString("name")
-                    val cocktail = cocktailList.firstOrNull { it.name == name }
-                    cocktail?.let { CocktailDetailScreen(it) }
+            JunebarTheme{
+                val navController = rememberNavController()
+                val cocktailList = loadCocktails()
+                //could be moved to a navHost
+                NavHost(navController = navController, startDestination = "cocktail_list") {
+                    composable("cocktail_list") {
+                        CocktailListScreen(cocktails = cocktailList, navController = navController)
+                    }
+                    composable("cocktail_details/{name}") { backStackEntry ->
+                        val name = backStackEntry.arguments?.getString("name")
+                        val cocktail = cocktailList.firstOrNull { it.name == name }
+                        cocktail?.let { CocktailDetailScreen(it) }
+                    }
                 }
             }
         }
@@ -61,18 +65,22 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun CocktailListScreen(cocktails: List<Cocktail>, navController: NavHostController) {
     //could be a little smaller but works great
-    LazyColumn(modifier = Modifier.padding(16.dp)) {
+    LazyColumn(modifier = Modifier.padding(16.dp) ) {
         items(cocktails.size) { index ->
             val cocktail = cocktails[index]
-            Text(
-                text = cocktail.name,
-                style = MaterialTheme.typography.h6,
-                modifier = Modifier
-                    .padding(8.dp)
-                    .clickable {
-                        navController.navigate("cocktail_details/${cocktail.name}")
-                    }
-            )
+            Column(modifier = Modifier
+                .fillMaxWidth()
+                .background(MaterialTheme.colorScheme.surface)
+                .clickable {
+                    navController.navigate("cocktail_details/${cocktail.name}")
+                }) {
+                Text(
+                    text = cocktail.name,
+                    style = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.padding(8.dp),
+                    color = MaterialTheme.colorScheme.onSurface
+                )
+            }
             Divider()
         }
     }
@@ -81,20 +89,23 @@ fun CocktailListScreen(cocktails: List<Cocktail>, navController: NavHostControll
 @Composable
 fun CocktailDetailScreen(cocktail: Cocktail) {
     //find some better styling for it #GoogleIsMyLife
+    val instructionsSplit = cocktail.instructions.split(";")
     Column(modifier = Modifier.padding(16.dp)) {
-        Text(text = cocktail.name, style = MaterialTheme.typography.h4, fontWeight = FontWeight.Bold)
-        Text(text = "Price: ${cocktail.price_dkk} DKK")
-        Text(text = "Glass: ${cocktail.glass}")
-        Text(text = "Ice: ${cocktail.ice ?: "None"}")
-        Text(text = "Recipe:", style = MaterialTheme.typography.h6)
+        Text(text = cocktail.name, style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.onSurface)
+        Text(text = "Price: ${cocktail.price_dkk} DKK",color = MaterialTheme.colorScheme.onSurface)
+        Text(text = "Glass: ${cocktail.glass}", style = MaterialTheme.typography.headlineSmall,color = MaterialTheme.colorScheme.onSurface)
+        Text(text = "Ice: ${cocktail.ice ?: "None"}", style = MaterialTheme.typography.headlineSmall,color = MaterialTheme.colorScheme.onSurface)
+        Text(text = "Recipe:", style = MaterialTheme.typography.headlineSmall,color = MaterialTheme.colorScheme.onSurface)
         cocktail.recipe.forEach { ingredient ->
-            Text(text = "- $ingredient", modifier = Modifier.padding(start = 8.dp))
+            Text(text = "- $ingredient", modifier = Modifier.padding(start = 8.dp), style = MaterialTheme.typography.titleLarge,color = MaterialTheme.colorScheme.onSurface)
         }
-        Text(text = "Instructions:", style = MaterialTheme.typography.h6)
-        Text(text = cocktail.instructions, modifier = Modifier.padding(start = 8.dp))
-        Text(text = "Garnish:", style = MaterialTheme.typography.h6)
+        Text(text = "Instructions:", style = MaterialTheme.typography.titleLarge,color = MaterialTheme.colorScheme.onSurface)
+        instructionsSplit.forEach { instruction ->
+            Text(text = "- $instruction", modifier = Modifier.padding(start = 8.dp), style = MaterialTheme.typography.titleLarge,color = MaterialTheme.colorScheme.onSurface)
+        }
+        Text(text = "Garnish:", style = MaterialTheme.typography.titleLarge,color = MaterialTheme.colorScheme.onSurface)
         cocktail.garnish.forEach { garnishItem ->
-            Text(text = "- $garnishItem", modifier = Modifier.padding(start = 8.dp))
+            Text(text = "- $garnishItem", modifier = Modifier.padding(start = 8.dp), style = MaterialTheme.typography.titleLarge,color = MaterialTheme.colorScheme.onSurface)
         }
     }
 }
