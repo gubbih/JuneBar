@@ -8,6 +8,8 @@ This project was developed as a personal tool to streamline the process of learn
 
 This app is for personal use only and is not affiliated with Junebar. It serves as a demonstration of my skills in app development and my ability to create practical solutions to real-world problems.
 
+To see the code i wrote here is a [link](https://github.com/gubbih/JuneBar/blob/master/app/src/main/java/com/example/junebardrinks/MainActivity.kt)
+
 ## Tech Stack
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
@@ -18,8 +20,8 @@ This app is for personal use only and is not affiliated with Junebar. It serves 
 ## To-Do List
 
 ### 📝 To-Do:
-- [ ] Better UI styling
-- [ ] Make the APK
+- [ ] App icon
+- [ ] Better themeing
 
 ### 💡 Maybe Pile:
 - [ ] Integrate Firebase DB?
@@ -27,6 +29,8 @@ This app is for personal use only and is not affiliated with Junebar. It serves 
 - [ ] Track which table the drink is served to?
 
 ### ✅ Done:
+- [x] Better UI styling
+- [x] Make the APK
 - [x] Drinks data in JSON format
 - [x] Drinks list from JSON
 - [x] Add details about the drink  
