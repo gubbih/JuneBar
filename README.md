@@ -10,6 +10,8 @@ This app is for personal use only and is not affiliated with Junebar. It serves 
 
 To see the code i wrote here is a [link](https://github.com/gubbih/JuneBar/blob/master/app/src/main/java/com/example/junebardrinks/MainActivity.kt)
 
+This app is not going to be up on playstore or any other market places.
+
 ## Tech Stack
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
